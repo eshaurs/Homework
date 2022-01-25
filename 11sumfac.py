@@ -12,8 +12,10 @@ factorial = 1
 # your code goes here
 for i in range(1, n+1):
 	runningSum += i
-	factorial *= i
+	factorial  *= i
+	
 print(n, runningSum, factorial)
+
 """
 python3 11sumfac.py
 5 15 120
