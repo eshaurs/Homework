@@ -34,25 +34,6 @@ for t in range(trials):
 			break
 
 print(matches/trials)
-	
-"""
-# The trials
-for i in range(len(people)):
-	bday = random.randint(1, 366) # not sure if these are the right limits. 
-	calendar.append(bday)
-print(calendar)
-
-# Checking to see if any people have the same birthday.
-matchCount = 0
-
-for i in range(len(calendar)): # how do you make sure there are no repeats?
-	date = calendar[i]
-	for j in range(date, len(calendar)):
-		if (date == calendar[j]): matchCount += 1
-
-print(f'{matchCount/len(people):.3f}')
-"""
-
 
 """
 python3 33birthday.py
